@@ -1,5 +1,3 @@
-# Awesome-Yard-Management-Logistics-Tracking
-
 # Awesome Yard Management & Logistics Tracking
 
 > A curated list of top Yard Management and Logistics Tracking platforms — both SaaS/Hosted commercial solutions and open-source alternatives for managing trailer, container, and railcar movements across facility yards.  
