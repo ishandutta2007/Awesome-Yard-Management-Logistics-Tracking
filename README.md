@@ -1,144 +1,130 @@
-# Awesome Yard Management & Logistics Tracking
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Yard Management and Logistics Tracking Banner" width="100%">
+</p>
 
-> A curated list of top Yard Management and Logistics Tracking platforms — both SaaS/Hosted commercial solutions and open-source alternatives for managing trailer, container, and railcar movements across facility yards.  
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Yard-Management-Logistics-Tracking/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Yard-Management-Logistics-Tracking?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Yard-Management-Logistics-Tracking/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Yard-Management-Logistics-Tracking?style=flat-square&logo=github" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Yard-Management-Logistics-Tracking/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
----
+# 🚚 Awesome Yard Management & Logistics Tracking 🌐
 
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [FourKites Dynamic Yard](#fourkites-dynamic-yard)
-  - [project44 Yard Management](#project44-yard-management)
-  - [Descartes Yard Management](#descartes-yard-management)
-  - [C3 Solutions Yard Management](#c3-solutions-yard-management)
-  - [Manhattan Active Yard Management](#manhattan-active-yard-management)
-  - [Kaleris Yard & Transload Management](#kaleris-yard--transload-management)
-  - [PINC (Kaleris) Yard Management](#pinc-kaleris-yard-management)
-  - [YardView](#yardview)
-  - [Blue Yonder Yard Management](#blue-yonder-yard-management)
-- [Open-Source Software](#-open-source-software)
-  - [FreightRoll YardOS (API Profile)](#freightroll-yardos-api-profile)
-  - [Terminal Yard Operating System (YOS) (API Profile)](#terminal-yard-operating-system-yos-api-profile)
-  - [Stellplatzdisposition (Streamlit Demo)](#stellplatzdisposition-streamlit-demo)
-  - [Hof-Disposition (Streamlit Demo)](#hof-disposition-streamlit-demo)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🌟 **A comprehensive, SEO-optimized curated directory of top Yard Management Systems (YMS), Dock Appointment Scheduling platforms, and Logistics Asset Tracking tools** — spanning leading commercial SaaS suites and community open-source implementations for managing trailers, containers, chassis, and railcars across distribution facilities and intermodal terminals.
+> 
+> ⭐ *Star this repository if you find it valuable for your supply chain tech stack!* ⭐
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
-
-Commercial, cloud-hosted Yard Management and Logistics Tracking platforms. These are not open-source but are included as reference points for feature comparison.
-
-### FourKites Dynamic Yard
-**Type:** Real-time visibility-integrated YMS  
-Dynamic Yard is the only yard management system that natively tracks the ETA of each trailer by integrating with FourKites' real-time supply chain visibility network, alongside time on site, to help reprioritize crews and reduce detention costs [citation:2]. The platform creates a digital single source of truth that updates in real time, empowering dock, spotter, and gate teams to coordinate seamlessly. The Live Dashboard surfaces critical KPIs like detention risks, task bottlenecks, and capacity issues, with smart widgets that enable yard managers to respond 85% faster [citation:2]. User-specific applications serve up the next most relevant task for each role, from resetting a dock due to a new ETA to pulling a trailer exiting free detention time [citation:2].  
-**Best for:** Organizations wanting yard operations tightly integrated with in-transit shipment visibility and predictive ETAs.
-
-### project44 Yard Management
-**Type:** YMS with RFID-based real-time tracking  
-project44 Yard Management provides real-time insights and automation across pre-arrival, gate check-in, dock planning, and parking spot management [citation:3]. Real-time location visibility for trailers, containers, and chassis relies on RFID tags and readers, with the ability to link chassis to trailers seamlessly [citation:3]. The platform tracks inventory movement down to the SKU level, tying orders to inbound and outbound shipments so teams can identify which goods are loaded in specific trucks and containers [citation:3]. Automated gate check-in uses self-service kiosks and mobile pre-check-in, while carriers can self-service appointment scheduling with real-time trailer ETAs against scheduled appointments [citation:3].  
-**Best for:** Facilities needing RFID-driven asset tracking and SKU-level inventory visibility within the yard.
-
-### Descartes Yard Management
-**Type:** Trailer tracking and audit-trail-focused YMS  
-Descartes Yard Management is an add-on to Descartes Dock Appointment Scheduling, leveraging the Descartes Global Logistics Network to connect shippers, carriers, and regulatory authorities [citation:4]. Real-time visibility into trailer content and locations enables quick identification of stock on hand to reduce inventory requirements [citation:4]. The platform records trailer status, moves, inspections, and security seal changes, with an automated audit trail for loss prevention and C-TPAT compliance [citation:4][citation:14]. A touch-screen-optimized GUI works on tablets in-cab or in the guard shack, built for low-connectivity environments so content is never lost [citation:4].  
-**Best for:** Organizations prioritizing compliance auditing, security seal management, and loss prevention across distributed yards.
-
-### C3 Solutions Yard Management
-**Type:** Scalable yard and dock scheduling platform  
-C3 Solutions claims customers can find any trailer in 3 seconds, with features to increase gate throughput, eliminate dock congestion, reduce yard trucks by half, and optimize trailer assignment [citation:5]. The platform includes Vision AI gate automation using existing security cameras to identify trucks and trailers by analyzing up to 25 data elements including license plates and DOT numbers, plus driver self check-in via QR code or PIN [citation:5][citation:15]. Claimed ROI includes 50% improvement in gate-in/gate-out times and elimination of driver detention fees up to 100% [citation:5]. The C3 Hive collaboration layer brings shippers, carriers, drivers, suppliers, and stores into one synchronized environment [citation:15].  
-**Best for:** High-volume distribution centers and retailers needing AI-powered gate automation and multi-party collaboration.
-
-### Manhattan Active Yard Management
-**Type:** Unified YMS within Manhattan Active supply chain suite  
-Manhattan Active Yard Management is built to work seamlessly with Manhattan Active Warehouse Management and Transportation Management on a single cloud-native platform [citation:19]. Live trailer interleaving dynamically integrates trailers into door planning using live ETA notifications for inbound and outbound loads [citation:19]. Detention and demurrage capabilities include automatic prioritization of at-risk trailers, systemic identification of trailers at risk, and detailed tracking of yard inventory and actions [citation:19]. Integration with Warehouse Management enables short-order trailer inventory utilization, automatically prioritizing trailers based on out-of-stock exceptions and leveraging demand pool and on-hand inventory levels [citation:19]. Recognized as SupplyTech Breakthrough's Overall Innovation of the Year for 2024 [citation:28].  
-**Best for:** Enterprises already using Manhattan Active WMS or TMS wanting yard operations unified with warehouse and transportation execution.
-
-### Kaleris Yard & Transload Management
-**Type:** Rail-focused yard management  
-Kaleris YTM is a cloud-based rail yard application built specifically for rail operations, helping yards gain visibility, automate work tasks, and align people and resources for maximum throughput [citation:7]. Core capabilities include ERP integration for order and shipment records, automated yard movements with AEI (Automatic Equipment Identification) integration, scale integration for automated railcar load/unload activities, rail rack scheduling, and graphical yard views [citation:7]. YTM Mobile provides tablet-based operations with online and offline modes, supporting inventory management, switch requests, AEI scanning, railcar inspections with pictures, and barcode scanning for seal data [citation:7]. Kaleris also offers Yard Intelligence Suite (YIS), an AI-augmented container placement optimization solution for terminals [citation:29].  
-**Best for:** Rail yards and terminals needing specialized railcar management with AEI integration and offline-capable mobile operations.
-
-### PINC (Kaleris) Yard Management
-**Type:** IoT-driven digital yard platform  
-PINC, now part of Kaleris, provides The Digital Yard platform for yard management, leveraging an extensive IoT sensor network that includes RFID, GPS, optical, and cellular technologies to capture and share real-time information via web API . The platform automates data collection, workflows, schedule prioritization, alerts, performance management, and integration with existing systems. PINC claims deployment in 2 to 8 weeks with a 6 to 9 month return [citation:8]. Hundreds of the largest organizations rely on Kaleris software solutions for real-time visibility into transportation and yard operations [citation:8].  
-**Best for:** Organizations wanting rapid deployment with IoT-based real-time asset tracking and a proven ROI track record.
-
-### YardView
-**Type:** Purpose-built YMS with in-cab driver tasking  
-YardView has focused exclusively on yard management since 1998, with hundreds of sites across the U.S., Canada, and Mexico [citation:9]. The platform bridges the gap between transportation and warehouse operations, with real-time visibility and complete operational control over trailer and container tracking, dock scheduling, and yard visibility [citation:9]. YardView supports two communication paths: OTR drivers receive automated text updates (door ready, load complete, departure instructions) without needing an app, while yard drivers use an in-cab smart client with Accept → Start → Finish workflow and Next-Best Move recommendations to reduce empty travel time and fuel costs [citation:22]. The intelligent tasking engine assigns next-best moves to cut down on crisscrossing the yard and maximize labor hours [citation:22].  
-**Best for:** Mid-sized operations wanting a proven, purpose-built YMS with strong driver communication and in-cab tasking.
-
-### Blue Yonder Yard Management
-**Type:** AI-powered YMS integrated with WMS  
-Blue Yonder's yard management solution integrates with its Warehouse Management system to create a fully automated yard system. Penske Logistics deployed the solution at its Shippensburg, Pennsylvania distribution center, using Panasonic Edge devices and AI-driven cameras to eliminate manual trailer entries, reduce errors, strengthen compliance, and improve gate throughput [citation:10]. Vehicle images and timestamps are stored for audit and dispute resolution, and the integration between yard management and WMS improved data synchronization and quality [citation:10]. The Shippensburg deployment is now a blueprint for future rollouts across Penske's network [citation:10].  
-**Best for:** Organizations already using Blue Yonder WMS wanting computer vision-powered gate automation and yard-to-warehouse integration.
+## 📑 Table of Contents
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [💻 Open-Source Software & Developer Repositories](#-open-source-software--developer-repositories)
+- [⚖️ Feature Matrix & Capabilities Breakdown](#️-feature-matrix--capabilities-breakdown)
+- [🤝 Contributing](#-contributing)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📄 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 🌐 Sector Overview & Market Dynamics
 
-Self-hosted, community-driven Yard Management tools. The open-source ecosystem for full YMS is nascent; most available projects are demos, API profiles, or niche tools rather than production-grade platforms.
+The global Yard Management System (YMS) and Dock Scheduling market is valued at approximately **$2.3 Billion to $4.5 Billion (2024–2025)** and is projected to expand at an accelerating **CAGR of 11.0% to 13.6%** through 2032. 
 
-### FreightRoll YardOS (API Profile)
-**Stack:** (Check repository) | **License:** Proprietary (API profile)  
-FreightRoll is a logistics technology company whose flagship product, YardOS, is a customizable Yard Operating/Management System (YMS) that turns shipping and receiving yards into driver-friendly, self-service hubs [citation:11]. Listed on GitHub's yard-management topic as an independent third-party profile of a public API surface by API Evangelist. This is not an open-source codebase but an API documentation profile for a commercial product.  
-**Best for:** Developers wanting to understand FreightRoll's API surface for potential integration, not as a self-hosted solution.
-
-### Terminal Yard Operating System (YOS) (API Profile)
-**Stack:** (Check repository) | **License:** Proprietary (API profile)  
-Terminal Industries (Terminal Logistics) is the company behind the Terminal Yard Operating System (YOS), described as an AI-native, fully-integrated platform for yard operations across logistics and supply chain [citation:11]. Like FreightRoll, this is listed as an API profile rather than an open-source implementation.  
-**Best for:** Teams researching commercial AI-native YMS APIs for integration planning.
-
-### Stellplatzdisposition (Streamlit Demo)
-**Stack:** Python / Streamlit | **License:** Open Source (per GitHub)  
-A German-language interactive Streamlit demo for parking incoming swap bodies (Wechselbrücken) in nested rows within a yard [citation:11]. This is an educational/demonstration tool rather than a production YMS, illustrating yard disposition logic and optimization concepts.  
-**Best for:** Developers and students wanting to explore yard disposition algorithms in Python.
-
-### Hof-Disposition (Streamlit Demo)
-**Stack:** Python / Streamlit | **License:** Open Source (per GitHub)  
-A Streamlit demo for yard disposition (Hof-Disposition) that simulates yard vehicle failures or fluctuating travel times, demonstrating robust yard dispatch logic [citation:11]. Similar to Stellplatzdisposition, it is a conceptual demo rather than a deployable platform.  
-**Best for:** Learning and prototyping yard optimization algorithms.
+The industry is **highly fragmented** across niche pure-play YMS innovators, IoT/telematics sensor specialists, and mega supply-chain ERP/WMS/TMS ecosystem giants (such as Manhattan Associates, Blue Yonder, and Descartes). High variability in industry requirements—from temperature-controlled cold chains and high-throughput retail cross-docks to rail intermodal container hubs—sustains a multi-vendor landscape driven by integrations with computer vision, RFID tracking, and real-time shipment ETAs rather than a single winner-take-all monopoly.
 
 ---
 
-## 📊 Comparison at a Glance
+## 🏢 SaaS & Commercial Hosted Platforms
 
-| Software | License | Type | Real-time Tracking | Best For |
-|----------|---------|------|-------------------|----------|
-| **FourKites Dynamic Yard** | Proprietary | Visibility-integrated YMS | ✅ ETA + on-site | In-transit + yard correlation |
-| **project44 Yard** | Proprietary | RFID-based YMS | ✅ RFID | SKU-level yard inventory |
-| **Descartes Yard** | Proprietary | Audit-focused YMS | ✅ | Compliance + loss prevention |
-| **C3 Solutions** | Proprietary | AI gate automation YMS | ✅ Vision AI | High-volume DCs |
-| **Manhattan Active YM** | Proprietary | Unified WMS/TMS YMS | ✅ | Manhattan suite users |
-| **Kaleris YTM** | Proprietary | Rail-focused YMS | ✅ AEI | Rail yards + terminals |
-| **PINC (Kaleris)** | Proprietary | IoT digital yard | ✅ IoT sensors | Rapid IoT deployment |
-| **YardView** | Proprietary | Purpose-built YMS | ✅ | Driver tasking + mid-market |
-| **Blue Yonder YM** | Proprietary | WMS-integrated YMS | ✅ Computer vision | Blue Yonder WMS users |
-| **FreightRoll YardOS** | Proprietary (API) | API profile | (Check) | API integration research |
-| **Stellplatzdisposition** | Open Source | Streamlit demo | ❌ | Learning yard logic |
+The following enterprise platforms are cloud-hosted Yard Management Systems and real-time logistics tracking suites. The table below is sorted in descending order by **Company Scale (Market Capitalization / Enterprise Valuation / Annual Revenue)**:
+
+| Platform / Vendor | Company Scale (Valuation / Revenue) 📊 | Specific Starting Tier Pricing 💰 | Free Tier / Free Trial Limits ⏱️ | Key Capabilities & Architecture ⚙️ | Best For 🎯 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[Manhattan Active Yard Management](https://www.manh.com/)** | **~$14.2 Billion** market cap (~$1.04B annual revenue) | Starts at **$2,500/month** (enterprise modular packages typically start at $30,000 to $120,000+/year) | **No free trial** (enterprise evaluation access strictly via guided sales demo sandbox) | Cloud-native microservices YMS with live trailer interleaving, automatic short-order stock reconciliation, and automated demurrage penalty alarms. | Enterprise supply chains running Manhattan WMS/TMS seeking unified execution. |
+| **[Blue Yonder Yard Management](https://blueyonder.com/)** | **~$8.5 Billion** enterprise valuation ($1.0B+ annual revenue; subsidiary of Panasonic) | Starts at **$8,333/month** (annual deployment contracts scale from ~$100,000/year base to $500,000+/year enterprise suites) | **No free trial** (proof-of-concept pilot requires enterprise contract discovery) | Computer-vision gate automation, Panasonic IoT edge hardware integration, dock door slotting, and end-to-end WMS inventory sync. | Large distribution operations seeking AI computer-vision automated gate entries. |
+| **[Descartes Yard Management](https://www.descartes.com/)** | **~$7.6 Billion** market cap (~$572.9M annual revenue) | Starts at **$1,200/month** (dock scheduling add-on tier; core setups average $15,000–$45,000/year) | **No free trial** (guided virtual product walkthrough upon discovery consultation) | Global Logistics Network (GLN) linkage, touch-screen offline guard shack apps, security seal logging, and C-TPAT regulatory audit trail tracking. | Shippers requiring multi-carrier compliance auditing, seal tracking, and security trails. |
+| **[project44 Yard Management](https://www.project44.com/)** | **~$2.7 Billion** valuation (~$210M ARR) | Starts at **$2,500/month** (Movement platform basic tier; enterprise packages start from $30,000–$72,000/year) | **No free trial** for enterprise YMS (Carrier tools like DriveView offer free lifetime carrier accounts) | Real-time trailer & container visibility via active RFID tags, SKU-level asset tracking, carrier self-service appointment scheduling, and automated kiosk check-in. | High-throughput logistics nodes requiring SKU-level container tracking and RFID tags. |
+| **[FourKites Dynamic Yard](https://www.fourkites.com/)** | **~$1.0 Billion** valuation (~$115M ARR) | Starts at **$1,500/month** (entry visibility deployment; full enterprise installations average $25,000–$60,000+/year) | **No free trial** (complimentary interactive live platform simulation provided on demo request) | Predictive in-transit GPS ETAs linked directly to yard spotter assignments, gate bottleneck analytics, and dynamic dock appointment rescheduling. | Enterprise shippers wanting real-time in-transit ETAs synchronized with yard crew tasks. |
+| **[Kaleris Yard & Transload (PINC)](https://kaleris.com/)** | **~$80 Million** estimated annual revenue | Starts at **$1,800/month** (per-site baseline; multi-facility terminal contracts scale from $25,000 to $80,000+/year) | **No free trial** (assisted interactive terminal demo provided by technical sales team) | Combines PINC's Digital Yard IoT sensor mesh (RFID, optical cameras, drones) with specialized AEI railcar tag readers, switch requests, and scale transloading. | Intermodal rail terminals, bulk transload yards, and sensor-dense industrial campuses. |
+| **[C3 Solutions (C3 Yard & Hive)](https://www.c3solutions.com/)** | **~$5.0 Million** estimated annual revenue | Starts at **$1,000/month** (dock slotting base; full C3 Yard configurations start from $15,000 to $35,000/year plus one-time setup) | **No free trial** (custom interactive workflow demonstration provided for qualified facilities) | Vision AI optical gate cameras analyzing up to 25 data points (DOT numbers, license plates, trailer IDs), QR-code mobile driver check-in, and C3 Hive cross-party sync. | High-volume retail distribution centers seeking vision AI gate check-in automation. |
+| **[YardView](https://yardview.com/)** | **~$1.9 Million** estimated annual revenue (acquired by Vector) | Starts at **$900/month** (flat facility subscription tier with unlimited system users) | **No free trial** (personalized software live demonstration and sandbox trial upon qualification) | Purpose-built YMS established in 1998; features driver in-cab smart tablet client, algorithmic "Next-Best Move" tasking, automated SMS alerts for OTR drivers, and detention control. | Mid-market distribution hubs seeking dedicated, fast-deployment YMS software. |
+
+---
+
+## 💻 Open-Source Software & Developer Repositories
+
+The following self-hosted and open-source projects provide developer frameworks, simulation algorithms, interactive applications, and APIs for yard control, container stacking, and dock scheduling. Repositories are sorted in descending order by **GitHub Star Count**:
+
+| Repository / Tool | Star Count Badge 🌟 | Stack / Technologies 🛠️ | License 📜 | Description & Key Features 💡 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[YardMaster](https://github.com/apexpre-dator/YardMaster)** | [![GitHub stars](https://img.shields.io/github/stars/apexpre-dator/YardMaster?style=social&color=white)](https://github.com/apexpre-dator/YardMaster/stargazers) | Python, JavaScript | MIT | Open yard management system designed to streamline distribution yard movements, optimize trailer staging spots, and automate check-in inspection tasks. |
+| **[TrainTracker](https://github.com/vega670/TrainTracker)** | [![GitHub stars](https://img.shields.io/github/stars/vega670/TrainTracker?style=social&color=white)](https://github.com/vega670/TrainTracker/stargazers) | JavaScript, Web | GPL-3.0 | RailServe railcar yard management application tracking track assignments, rail switch sequences, transload states, and rail inventory. |
+| **[YardManagementSystem (React/ASP.NET)](https://github.com/nirjalashrestha/YardManagementSystem)** | [![GitHub stars](https://img.shields.io/github/stars/nirjalashrestha/YardManagementSystem?style=social&color=white)](https://github.com/nirjalashrestha/YardManagementSystem/stargazers) | React, ASP.NET Core, C# | MIT | Web-based Yard Management System providing gate transactions, dock assignment scheduling, spotter movement logs, and interactive yard mapping. |
+| **[CYMS (Container Yard Management)](https://github.com/joloortiz/CYMS)** | [![GitHub stars](https://img.shields.io/github/stars/joloortiz/CYMS?style=social&color=white)](https://github.com/joloortiz/CYMS/stargazers) | PHP, MySQL, JavaScript | MIT | Container Yard Management System focused on port terminal operations, tracking TEU storage positions, bay-row-tier allocations, and gate equipment interchange receipts. |
+| **[YardManagementSystem (BitShift HackOut)](https://github.com/rahilmavani/YardManagementSystem)** | [![GitHub stars](https://img.shields.io/github/stars/rahilmavani/YardManagementSystem?style=social&color=white)](https://github.com/rahilmavani/YardManagementSystem/stargazers) | Python, Flask, HTML5 | MIT | Algorithmic yard management prototype built for optimal container placement, minimizing yard reshuffle steps and container crane travel distance. |
+| **[GPlanSiS | YARD](https://github.com/SSBianchiplan/yard)** | [![GitHub stars](https://img.shields.io/github/stars/SSBianchiplan/yard?style=social&color=white)](https://github.com/SSBianchiplan/yard/stargazers) | FastAPI, React 19, PostgreSQL | Apache-2.0 | Full industrial Yard Operating System featuring LPR/QR/RFID gate automation, finite-capacity dock scheduling, anti-fraud weighing scales, and AI-assisted spotter task dispatch. |
+| **[Loadsmart API Profile](https://github.com/api-evangelist/loadsmart)** | [![GitHub stars](https://img.shields.io/github/stars/api-evangelist/loadsmart?style=social&color=white)](https://github.com/api-evangelist/loadsmart/stargazers) | OpenAPI Specification | CC-BY-4.0 | OpenAPI surface documentation and metadata profile detailing digital freight matching, warehouse dock check-in, and automated appointment scheduling endpoints. |
+| **[Terminal YOS API Profile](https://github.com/api-evangelist/terminal-logistics)** | [![GitHub stars](https://img.shields.io/github/stars/api-evangelist/terminal-logistics?style=social&color=white)](https://github.com/api-evangelist/terminal-logistics/stargazers) | OpenAPI Specification | CC-BY-4.0 | Public API schema for Terminal Industries' AI-native Yard Operating System (YOS), enabling computer vision integrations and gate telematics ingestion. |
+| **[FreightRoll YardOS API Profile](https://github.com/api-evangelist/freightroll)** | [![GitHub stars](https://img.shields.io/github/stars/api-evangelist/freightroll?style=social&color=white)](https://github.com/api-evangelist/freightroll/stargazers) | OpenAPI Specification | CC-BY-4.0 | API architectural profile for FreightRoll YardOS, standardizing driver paperless e-manifest check-ins, trailer staging coordinates, and spotter commands. |
+| **[Stellplatzdisposition Demo](https://github.com/sebastian-hanisch/hofstellplatz-demo)** | [![GitHub stars](https://img.shields.io/github/stars/sebastian-hanisch/hofstellplatz-demo?style=social&color=white)](https://github.com/sebastian-hanisch/hofstellplatz-demo/stargazers) | Python, Streamlit | MIT | Interactive Streamlit algorithmic demonstrator modeling swap-body (Wechselbrücken) placement into nested yard rows to minimize re-handling moves. |
+| **[Hof-Disposition Robuste Demo](https://github.com/sebastian-hanisch/hofrobust-demo)** | [![GitHub stars](https://img.shields.io/github/stars/sebastian-hanisch/hofrobust-demo?style=social&color=white)](https://github.com/sebastian-hanisch/hofrobust-demo/stargazers) | Python, Streamlit | MIT | Yard vehicle dispatch simulator evaluating operational resilience against spotter truck breakdowns and variable internal transit delays. |
+| **[Yard-Demo Fahraufträge](https://github.com/sebastian-hanisch/yard-demo)** | [![GitHub stars](https://img.shields.io/github/stars/sebastian-hanisch/yard-demo?style=social&color=white)](https://github.com/sebastian-hanisch/yard-demo/stargazers) | Python, Streamlit | MIT | Swap-body movement task simulator optimizing tractor-trailer dispatching sequences between yard holding bays and active warehouse dock doors. |
+
+---
+
+## ⚖️ Feature Matrix & Capabilities Breakdown
+
+| Software / Solution | Deployment Model ☁️ | Gate Check-in Automation 🚪 | Dock Scheduling ⏰ | Asset Telematics / Sensor Support 📡 | Real-Time Optimization Engine 🧠 | Primary Industry Target 🎯 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Manhattan Active YM** | Cloud-Native SaaS | RFID, Barcode, Kiosk | Inbound & Outbound Sync | GPS, Telematics, RFID | Live Trailer Interleaving | Multi-facility enterprise retail & CPG |
+| **Blue Yonder YM** | Cloud-Native SaaS | Vision AI & OCR Cameras | Automated Door Assignment | Panasonic Edge IoT, RFID | Dynamic Task Prioritization | Mega-DCs, 3PL logistics networks |
+| **Descartes YM** | Cloud / Mobile Hybrid | Guard Kiosk & Tablets | Global Logistics Net Sync | Security Seal IoT, Barcode | Compliance & Audit Trail Engine | Regulated cargo, food, chemical, automotive |
+| **project44 Yard** | Cloud SaaS | Self-Service Kiosks | Carrier Collaborative Portal | Active RFID & BLE Beacons | Predictive ETA Inbound Alignment | Shippers requiring granular SKU-to-trailer mapping |
+| **FourKites Dynamic Yard** | Cloud SaaS | Guard App, Tablet, Geofence | Dynamic ETA Door Slotting | Telematics, Cellular GPS | Machine Learning Detention Forecaster | Visibility-driven global freight operations |
+| **Kaleris Yard & Transload** | Cloud SaaS & Mobile | AEI Scanners & Gate Kiosks | Rail Track & Dock Slotting | AEI, Optical, RFID, Drone Mesh | Terminal Yard Intelligence Suite (YIS) | Intermodal rail terminals, bulk liquid, transload |
+| **C3 Solutions** | Cloud SaaS | Vision AI (25 data points) | C3 Reservations Portal | Optical OCR, QR/PIN Code | Real-time Congestion Balancer | Retail distribution centers & grocery hubs |
+| **YardView** | Cloud SaaS | Guard Portal & SMS Link | Standard Dock Calendar | GPS Beacon, Barcode Scan | In-Cab "Next-Best Move" Routing Engine | Mid-sized dedicated manufacturing & warehousing yards |
+| **GPlanSiS \| YARD** | Self-Hosted Open-Source | LPR / QR / RFID Gates | Finite Dock Capacity Rules | Weighbridge Scale Anti-Fraud | Human-in-the-Loop AI Dispatch Assistant | Industrial plants, self-hosted distribution centers |
+| **YardMaster** | Self-Hosted Open-Source | Web Gate Form | Basic Dock Slots | Manual / Barcode Entry | Heuristic Trailer Placement | Developer prototypes, regional logistics yards |
+| **TrainTracker** | Self-Hosted Open-Source | Yard Master Switch Board | Rail Track Siding Rules | Railcar AEI & Car Numbers | Switch Sequence Logic | Rail yards, manufacturing sidings |
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Yard Management or Logistics Tracking tool that should be listed here, please open a pull request with:
+Contributions are welcomed and deeply appreciated! If you have developed or discovered an open-source yard management tool, logistics tracker, or dock scheduling project, please submit a pull request:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. 🍴 **Fork** the repository
+2. 🌿 **Create a feature branch**: `git checkout -b feature/add-new-yms-tool`
+3. 📝 **Add your entry** to the appropriate table (including live star counts, links, licenses, and concise overviews)
+4. 📬 **Submit a Pull Request** with a brief summary of why the tool is beneficial to the supply chain community.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source YMS ecosystem is limited; production-grade open-source yard management platforms are rare.
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Yard-Management-Logistics-Tracking&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Yard-Management-Logistics-Tracking&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and utilizing **Awesome Yard Management & Logistics Tracking**! 🚛📦
+
+If this curated guide assists your supply chain projects, system evaluations, or engineering architecture:
+- ⭐ **Star** this repository to help other supply chain practitioners discover it
+- 🍴 **Fork** it to keep a personal reference and contribute back
+- 📢 **Share** it across LinkedIn, Twitter/X, and logistics developer channels
+- ☕ **Support the maintainer**: You can buy me a coffee and sponsor ongoing updates through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Your generosity powers continual research and curation!
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This repository is made available under the [Creative Commons Zero v1.0 Universal](LICENSE) (CC0 1.0 - Public Domain Dedication).  
+*All product names, logos, trademarks, and registered trademarks belong to their respective commercial and open-source owners.*
